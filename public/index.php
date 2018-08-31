@@ -14,9 +14,10 @@
                   <div class="card-header">Keep It</div>
 
                   <div class="card-body">
-                      <form id="form-checkin" method="POST" action="#">
+                      <form id="form-checkin" method="POST" action="?valida">
                           <div class="form-group">
                             <div class="form-group">
+                              <span calss='alert alert- danger'>email incorreto</span>
                               <label>E-mail</label>
                               <input type="email" class="form-control" name="email" placeholder="exemple@mycompany.com">
                             </div>
@@ -32,6 +33,5 @@
           </div>
       </div>
   </div>
-
  </body>
 </html>
