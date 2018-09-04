@@ -1,3 +1,7 @@
+<?php require ("../bootstrap.php");
+
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -8,16 +12,19 @@
   </head>
   <body>
               <div class="container">
+
       <div class="row justify-content-center" >
+
           <div class="col-md-7">
               <div class="card card-default">
+                      <?= get('message')?>
                   <div class="card-header">Keep It</div>
 
                   <div class="card-body">
-                      <form id="form-checkin" method="POST" action="?valida">
+                      <form id="form-checkin" method="POST" action="pages/home.php">
                           <div class="form-group">
                             <div class="form-group">
-                              <span calss='alert alert- danger'>email incorreto</span>
+
                               <label>E-mail</label>
                               <input type="email" class="form-control" name="email" placeholder="exemple@mycompany.com">
                             </div>
