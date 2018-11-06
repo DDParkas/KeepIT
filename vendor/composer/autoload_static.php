@@ -11,6 +11,7 @@ class ComposerStaticInitf1cd52ee5a275c88fe741d1f22ca9d26
         '06e2cc845cd457b9c47e81e7c59d160b' => __DIR__ . '/../..' . '/app/functions/flash.php',
         '1a034cec71159224725114f89a820cf1' => __DIR__ . '/../..' . '/app/functions/validate.php',
         '39a0f2d0753bc9935d81dfb2c167310d' => __DIR__ . '/../..' . '/app/functions/object.php',
+        'cc40be00d2afa50d21ba103e06dc3d27' => __DIR__ . '/../..' . '/app/functions/login.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

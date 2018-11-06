@@ -1,6 +1,5 @@
 <?php require ("../bootstrap.php");
 
-
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -21,7 +20,7 @@
                   <div class="card-header">Keep It</div>
 
                   <div class="card-body">
-                      <form id="form-checkin" method="POST" action="login.php">
+                      <form id="form-checkin" method="POST" action="pages/home.php">
                           <div class="form-group">
                             <div class="form-group">
 
