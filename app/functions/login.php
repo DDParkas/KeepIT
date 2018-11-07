@@ -14,9 +14,17 @@ if ($row_cnt<=0){
 else{
 	session_start();
 	$linha = mysqli_fetch_array($verifica,MYSQLI_ASSOC);
-	$_SESSION['id'] = $linha;
+	$_SESSION['keepLog'] = $linha;
   setcookie("login",$login);
   header("Location:{$true}");
   }
+}
+function verificaLogado(){
+$keepLog =false;
+if (isset($_SESSION['keepLog'])){
+  $keepLog = true;
+}else{ header("Location:../index.php");}
+return $keepLog;
+
 }
 ?>

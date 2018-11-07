@@ -17,10 +17,11 @@
           <div class="col-md-7">
               <div class="card card-default">
                       <?= get('message')?>
+                      <?= get('alert')?>
                   <div class="card-header">Keep It</div>
 
                   <div class="card-body">
-                      <form id="form-checkin" method="POST" action="pages/home.php">
+                      <form id="form-checkin" method="POST" action="pages/index.php">
                           <div class="form-group">
                             <div class="form-group">
 
@@ -41,3 +42,9 @@
   </div>
  </body>
 </html>
+<?php
+
+
+
+var_dump($_SESSION);
+var_dump($_COOKIE);
