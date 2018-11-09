@@ -5,9 +5,9 @@ if(isEmpty()){
   header("location: ../index.php");
 }
 
-login('','../index.php', ' senha errada');
+login('','../index.php', ' Login e/ou senha não encontrado. Tente novamente');
 
-if(isset($_SESSION['keepLog'] )){
+if(isset($_SESSION['keepLog'])){
   echo "voce está logado<a href='desloga.php'>sair</a>";
 }
 else{echo "voce nao esta logado ";}
