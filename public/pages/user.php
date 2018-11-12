@@ -2,12 +2,10 @@
 <?php
 require_once("header.php");
 require_once("../../bootstrap.php");
-
 if(verificaLogado() == false){
   flash('alert', 'faça o login para ter acesso');
 
 }
-if(isset($_SESSION['keepLog'])){
 ?>
 <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">KeepIT</a>
@@ -25,7 +23,7 @@ if(isset($_SESSION['keepLog'])){
          <div class="sidebar-sticky">
            <ul class="nav flex-column">
              <li class="nav-item">
-               <a class="nav-link  active" href="index.php">
+               <a class="nav-link " href="index.php">
                  <span data-feather="home"></span>
                  Dashboard <span class="sr-only">(current)</span>
                </a>
@@ -43,7 +41,7 @@ if(isset($_SESSION['keepLog'])){
                </a>
              </li>
              <li class="nav-item">
-               <a class="nav-link " href="user.php">
+               <a class="nav-link active" href="user.php">
                  <span data-feather="users"></span>
                  Usuários
                </a>
@@ -288,7 +286,7 @@ if(isset($_SESSION['keepLog'])){
     });
   </script>
 <?php
-}else{echo "voce nao esta logado ";}
+
 // var_dump($_SESSION);
 // var_dump($_COOKIE);
 require_once("footer.php");

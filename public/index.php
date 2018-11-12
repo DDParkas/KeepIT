@@ -11,7 +11,7 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/signin.css" rel="stylesheet">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body class="">
               <div class="container">
@@ -26,7 +26,7 @@
                   <div class="card-header">Keep It</div>
 
                   <div class="card-body">
-                      <form id="form-checkin" method="POST" action="pages/index.php">
+                      <form id="form-checkin" method="POST" action="pages/loga.php">
                           <div class="form-group">
                             <div class="form-group">
 
@@ -47,9 +47,3 @@
   </div>
  </body>
 </html>
-<?php
-
-
-
-var_dump($_SESSION);
-var_dump($_COOKIE);
