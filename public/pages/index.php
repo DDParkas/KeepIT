@@ -14,7 +14,7 @@ if(isset($_SESSION['keepLog'])){
       <input class="form-control form-control-dark w-100" type="text" placeholder="Buscar" aria-label="Search">
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-          <a class="nav-link" href='desloga.php'>Deslogar</a>
+          <a class="nav-link text-light " href='desloga.php'>Deslogar</a>
         </li>
       </ul>
     </nav>

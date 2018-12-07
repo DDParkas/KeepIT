@@ -11,7 +11,7 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/signin.css" rel="stylesheet">
-    
+
   <body class="">
               <div class="container">
 
@@ -22,7 +22,7 @@
                       <?= get('message')?>
                       <?= get('login')?>
                       <?= get('alert')?>
-                  <div class="card-header">Keep It</div>
+                  <div class="card-header bg-dark text-light">Keep It</div>
 
                   <div class="card-body">
                       <form id="form-checkin" method="POST" action="pages/loga.php">
@@ -36,7 +36,7 @@
                               <label>Senha</label>
                               <input type="password" class="form-control" name="password" placeholder="Digite sua senha">
                             </div>
-                          <button type="submit" class="btn btn-primary">Enviar</button>
+                          <button type="submit" class="btn btn-outline-dark">Enviar</button>
 
                       </form>
                   </div>
